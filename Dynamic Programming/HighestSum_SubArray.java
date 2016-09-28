@@ -3,7 +3,7 @@
  * a one-dimensional array of numbers which has the largest sum.
  * 
  * @author DEBI 
- * Kadane’s Algorithm:
+ * Kadaneâ€™s Algorithm:
  */
 
 public class HighestSum_SubArray {
@@ -22,6 +22,7 @@ public class HighestSum_SubArray {
 				end_index=i;
 			}
 		}
+		
 		int k=end_index;
 		for(int j=max_val;j!=0;){
 			j=j-arr[k];
