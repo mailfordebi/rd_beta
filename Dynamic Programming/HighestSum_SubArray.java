@@ -23,6 +23,7 @@ public class HighestSum_SubArray {
 			}
 		}
 		
+		
 		int k=end_index;
 		for(int j=max_val;j!=0;){
 			j=j-arr[k];
